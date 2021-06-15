@@ -1,12 +1,16 @@
-# Multi-Granularity Tracking with Modularlized Components for Unsupervised Vehicles Anomaly Detection (CVPRW 2020)
+# Multi-Granularity Tracking with Modularized Components for Unsupervised Vehicles Anomaly Detection (CVPRW 2020)
 
 This repository contains source codes of team113 for NVIDIA AICity Challenge
 2020 Track 4, and the technical details please refer to the paper
-"Multi-Granularity Tracking with Modularlized Components for Unsupervised Vehicles Anomaly Detection" 
+"Multi-Granularity Tracking with Modularized Components for Unsupervised Vehicles Anomaly Detection" 
 
 
+Our method obtains the F1-score metric at 0.9855 and the RMSE metric at 4.8737, which ranked first in the Track4 test set of the NVIDIA AI CITY 2020 CHALLENGE.
 
-Our method obtain the F1-score metric at 0.9855 and the RMSE metric at 4.8737, which ranked first in the Track4 test set of the NVIDIA AI CITY 2020 CHALLENGE.
+![Multi-granularity tracking with modularized components framework](assets/multi-granularity_tracking_with_modularized_components_framework.png)
+Figure 1. The illustration of multi-granularity tracking with modularized components framework. This framework involves fusion from
+box-level tracking branch and pixel-level tracking branch. The backtracking optimization is performed to further improve the predictions.
+
 
 ## Requirements
 
